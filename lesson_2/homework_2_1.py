@@ -17,7 +17,7 @@ result_string_4 = '''Good day 2'''
 first_name = "Elnura"
 last_name = "Oroz"
 result_full_name = first_name + " " + last_name
-result_full_name_length = len(result_full_name)
+result_full_name_length = first_name * len(result_full_name)
 # print(result_full_name)
 # print(result_full_name_length)
 
